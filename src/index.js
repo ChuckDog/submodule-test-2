@@ -1,5 +1,5 @@
-import { lodashCloneDeep, getRandomInt } from "./randomInt";
+import helper from "../utils/helper.js";
 
-const randomInt = getRandomInt(1, 1000);
+const randomInt = helper.getRandomInt(1, 1000);
 
-export default { randomInt, getRandomInt, lodashCloneDeep };
+export default { randomInt, ...helper };
