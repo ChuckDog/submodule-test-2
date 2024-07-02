@@ -1,0 +1,11 @@
+{
+  "name": "submodule-test-2",
+  "version": "1.0.0",
+  "description": "This is a submodule test demo",
+  "author": "Chuck",
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
